@@ -53,13 +53,13 @@ module.exports = {
          * Use linting of js-files
          * @type {Boolean}
          */
-        lint: true,
+        lint: false,
 
         /**
          * Use babel for ES6(ES7-ESNext) syntax support
          * @type {Boolean}
          */
-        useBabel: true,
+        useBabel: false,
 
         /**
          * Remove console.log and debugger from js code in release mode
@@ -116,12 +116,12 @@ module.exports = {
      */
     sourcemaps: {
         js: {
-            active: true,
-            inline: true
+            active: false,
+            inline: false
         },
         css: {
-            active: true,
-            inline: true
+            active: false,
+            inline: false
         }
     },
 
@@ -135,7 +135,7 @@ module.exports = {
          * Do you need to use notify?
          * @type {Boolean}
          */
-        useNotify: true,
+        useNotify: false,
 
         /**
          * Title for notifier
@@ -234,7 +234,7 @@ module.exports = {
      * .sass extension is supported if cssPreprocessor is 'scss'
      * @type {String}
      */
-    cssPreprocessor: 'scss',
+    cssPreprocessor: 'less',
 
     /**
      * What kind of size of images are you going to use.
