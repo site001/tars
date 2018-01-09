@@ -27,7 +27,7 @@ module.exports = {
 
     svg: {
         active: true,
-        // symbols, sprite
+        // symbols, sprite 
         workflow: 'sprite',
         symbolsConfig: {
             // separate-file, separate-file-with-link, inject
